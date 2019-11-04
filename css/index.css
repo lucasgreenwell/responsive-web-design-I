@@ -1,7 +1,7 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
-*{
+/* *{
 	 border: 2px red solid !important; 
-}
+} */
 body{
 	padding: 5%;
 }
@@ -119,6 +119,20 @@ h2{
 	}
 	.title{
 		width: 350%;
+	}
+	.navItems{
+		flex-flow: column wrap;
+		align-items: center;
+
+	}
+	.navItems a{
+		border-bottom: 1px lightgrey solid;
+		width: 100vw;
+		text-align: center;
+		padding: 3%;
+	}
+	.services{
+		border-top: 1px lightgrey solid;
 	}
 }
 
