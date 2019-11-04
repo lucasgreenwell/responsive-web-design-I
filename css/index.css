@@ -146,8 +146,61 @@ h2{
 	}
 }
 
+/* Stretch Services Here */
+.services-header-img{
+	width: 100%;
+	margin: 3% 0;
+}
+.box{
+	width: 46.5%;
+	border: 1px solid black;
+	background-color: lightgrey;
+	box-sizing: border-box;
+	padding: 2%;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 2% 1%;
+}
+.text-srv{
+	padding-top: 5%;
+	justify-content: space-between;
+}
+.learn{
+	width: 35%;
+	border: 1px black solid;
+	text-align: center;
+	padding: 1.5%;
+	background-color: white;
+}
+.bigFacts{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	margin: 4% 0;
+}
+.facts{
+	width: 47%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.services-info-img{
+	width: 47%;
+}
 
 
+/* Media Queries Tablet Services */
+@media (max-width: 800px){
+	.services-info-img{
+		display: none;
+	}
+	.facts{
+		width: 100%;
+	}
+	.box{
+		width: 100%;
+		justify-content: center;
+	}
+}
 
 
 
