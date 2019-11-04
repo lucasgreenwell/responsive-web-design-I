@@ -1,3 +1,132 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
+/* *{
+	 border: 2px red solid !important; 
+} */
+body{
+	padding: 5%;
+}
+h1, h2{
+	font-family: 'Bangers', cursive;
+	letter-spacing: 0.2vh;
+}
+p, li{
+	font-size: 125%;
+	font-family: 'Staatliches', cursive;	
+	/* font-family: 'Titillium Web'; */
+}
+/* Header */
+
+a{
+	color:lightgrey;
+	text-decoration: none;
+    font-size: 125%;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.navItems{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.title-div{
+    margin: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    width: 42%;
+    text-align: center;
+}
+.header-img{
+	width: 38%;
+}
+.title h1 {
+	font-size: 550%;
+	text-align: center;
+}
+.title-div h3{
+	width: 50%;
+	text-align: center;
+	border: 1px gray solid;
+	font-size: 90%;
+    padding: 3%;
+	align-self: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Text Area */
+
+h2{
+	justify-self: flex-start;
+	font-size: 175%;
+	margin: 5% 0;
+}
+
+.text-area{
+	border-top: 2px gray solid;
+	border-bottom: 2px gray solid;
+	display: flex;
+	flex-wrap: wrap;
+}
+.textOne{
+	margin: 1% 0 2%;
+	display: flex;
+	justify-content: flex-start;
+}
+.about{
+	margin-left: 15%;
+}
+.middle-img{
+	width: 100%;
+}
+.textTwo{
+	padding-bottom: 2%;
+	display: flex;
+	justify-content: flex-start;
+}
+.product{
+	margin-left: 5%;
+}
+.vision{
+	margin-left: 5%;
+}
+.copyright{
+	margin-top: 4%;
+	text-align: center;
+}
+/* Media Queries for Tablet */
+@media (max-width: 800px) {
+        .header-img{
+            display: none;
+        }
+        nav{
+            flex-flow: column-reverse wrap;
+        }
+        .logo{
+            align-self: center;
+            margin-bottom: 2%;
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
