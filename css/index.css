@@ -1,7 +1,7 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
-/* *{
+*{
 	 border: 2px red solid !important; 
-} */
+}
 body{
 	padding: 5%;
 }
@@ -112,6 +112,15 @@ h2{
 }
 
 
+/* Media Queries for Phone */
+@media (max-width: 500px){
+	.title h1 {
+		font-size: 350%;
+	}
+	.title{
+		width: 350%;
+	}
+}
 
 
 
