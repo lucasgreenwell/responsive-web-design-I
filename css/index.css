@@ -87,10 +87,7 @@ h2{
 	display: flex;
 	justify-content: flex-start;
 }
-.product{
-	margin-left: 5%;
-}
-.vision{
+.product, .vision{
 	margin-left: 5%;
 }
 .copyright{
@@ -133,21 +130,19 @@ h2{
 		width: 100%;
 		text-align: center;
 		padding: 3%;
+		left: 0 auto;
 	}
 	.services{
 		border-top: 1px lightgrey solid;
 	}
-	.textOne{
+	.textOne, .textTwo{
 		flex-direction: column;
 	}
-	.about{
+	.about, .product, .vision{
 		margin: 0;
 	}
-	.textTwo{
-		flex-direction: column;
-	}
-	.product, .vision{
-		margin: 0;
+	.text-area, footer{
+		margin: 0 3.5%;
 	}
 }
 
