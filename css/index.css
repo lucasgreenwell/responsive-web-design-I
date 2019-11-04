@@ -114,6 +114,9 @@ h2{
 
 /* Media Queries for Phone */
 @media (max-width: 500px){
+	body{
+		padding: 0%;
+	}
 	.title h1 {
 		font-size: 350%;
 	}
@@ -127,12 +130,24 @@ h2{
 	}
 	.navItems a{
 		border-bottom: 1px lightgrey solid;
-		width: 100vw;
+		width: 100%;
 		text-align: center;
 		padding: 3%;
 	}
 	.services{
 		border-top: 1px lightgrey solid;
+	}
+	.textOne{
+		flex-direction: column;
+	}
+	.about{
+		margin: 0;
+	}
+	.textTwo{
+		flex-direction: column;
+	}
+	.product, .vision{
+		margin: 0;
 	}
 }
 
